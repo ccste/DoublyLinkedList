@@ -28,7 +28,7 @@ namespace DoublyLinkedListWithErrors
             }
             else
             {
-                for (int i = 2; i < Math.Sqrt(n); i++)
+                for (int i = 2; i <= Math.Sqrt(n); i++)
                 {
                     if ((n % i) == 0)
                     {
